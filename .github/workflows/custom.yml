@@ -870,7 +870,23 @@ jobs:
           fi
 
           # 容错
-          sed -i 's/fe2a4648f76adeb65c3230632503ea36bbac64ee88b459eb9bfb5f3b8c8cebb3/2ff00c31835072b3163d2881fd31063cef132ae3c7910a7c3cf92a3e15e3f033/g' redpill-load/config/DS920+/7.0.1-42218/config.json
+          [-e redpill-load/config/DS1019+/7.0.1-42218/config.json ] && sed -i 's/920b53b9022ebd4675049b43c493455a1307ec97344846ca9dfd25d964b75684/b029393ea7b7cf644fb1c9f984f57c1980077562ee2e15d0ffd049c4c48098d3/g' redpill-load/config/DS1019+/7.0.1-42218/config.json
+          [-e redpill-load/config/DS1520+/7.0.1-42218/config.json ] && sed -i 's/06947c58f25bd591f7fa3c58ad9473777481bdd7a049b42d1cb585ca01b053ee/b8864e2becd8ce5a6083db993564c8c0b982df8300a006b56695a0495a670aa3/g' redpill-load/config/DS1520+/7.0.1-42218/config.json
+          [-e redpill-load/config/DS1621+/7.0.1-42218/config.json ] && sed -i 's/19f56827ba8bf0397d42cd1d6f83c447f092c2c1bbb70d8a2ad3fbd427e866df/396144fdcd94d441b4ad665099395cf24a14606742bee9438745ea30bf12b9ef/g' redpill-load/config/DS1621+/7.0.1-42218/config.json
+          [-e redpill-load/config/DS1621xs+/7.0.1-42218/config.json ] && sed -i 's/5db4e5943d246b1a2414942ae19267adc94d2a6ab167ba3e2fc10b42aefded23/12bcfd44b4aaa6c3439b1404b7f07760373d816724ef672884d5187f27ccd70f/g' redpill-load/config/DS1621xs+/7.0.1-42218/config.json
+          [-e redpill-load/config/DS2422+/7.0.1-42218/config.json ] && sed -i 's/415c54934d483a2557500bc3a2e74588a0cec1266e1f0d9a82a7d3aace002471/5a6cfbc690facdfaef9fbcc55215eac38c73ca6a85965a910af11cede5e2cd5d/g' redpill-load/config/DS2422+/7.0.1-42218/config.json
+          [-e redpill-load/config/DS3615xs/7.0.1-42218/config.json ] && sed -i 's/dddd26891815ddca02d0d53c1d42e8b39058b398a4cc7b49b80c99f851cf0ef7/ae1aca3b178a00689b93e97cca680b56af3f453174b852e0047496120dee2ee3/g' redpill-load/config/DS3615xs/7.0.1-42218/config.json
+          [-e redpill-load/config/DS3617xs/7.0.1-42218/config.json ] && sed -i 's/d65ee4ed5971e38f6cdab00e1548183435b53ba49a5dca7eaed6f56be939dcd2/f7e846e2a22b62613ac5e9d6e154df0213ba4ae64a6556297af627cd1e643e5c/g' redpill-load/config/DS3617xs/7.0.1-42218/config.json
+          [-e redpill-load/config/DS3622xs+/7.0.1-42218/config.json ] && sed -i 's/f38329b8cdc5824a8f01fb1e377d3b1b6bd23da365142a01e2158beff5b8a424/a222d37f369d71042057ccb592f40c7c81e9b988a95d69fa166c7c2a611da99c/g' redpill-load/config/DS3622xs+/7.0.1-42218/config.json
+          [-e redpill-load/config/DS918+/7.0.1-42218/config.json ] && sed -i 's/a403809ab2cd476c944fdfa18cae2c2833e4af36230fa63f0cdee31a92bebba2/a662d11999c266dfa86c54f7ba01045c6644c191124195a22d056d618790dffe/g' redpill-load/config/DS918+/7.0.1-42218/config.json
+          [-e redpill-load/config/DS920+/7.0.1-42218/config.json ] && sed -i 's/fe2a4648f76adeb65c3230632503ea36bbac64ee88b459eb9bfb5f3b8c8cebb3/b9b77846e0983f50496276bec6bcdfcfadd4c1f9f0db8ed2ca5766f131ddf97f/g' redpill-load/config/DS920+/7.0.1-42218/config.json
+          [-e redpill-load/config/DVA3219/7.0.1-42218/config.json ] && sed -i 's/3557df23ff6af9bbb0cf46872ba2fc09c344eb303a38e8283dbc9a46e5eae979/b3498a20aeb7c7c36deca0f4393172d4db7b51aa4fb87eaace83fe224d935e3b/g' redpill-load/config/DVA3219/7.0.1-42218/config.json
+          [-e redpill-load/config/DVA3221/7.0.1-42218/config.json ] && sed -i 's/01f101d7b310c857e54b0177068fb7250ff722dc9fa2472b1a48607ba40897ee/6722c73c51070dde2f542659d7728c497fc846256da2c9cf017177476de0bb09/g' redpill-load/config/DVA3221/7.0.1-42218/config.json
+          [-e redpill-load/config/FS2500/7.0.1-42218/config.json ] && sed -i 's/4d060be8afec548fdb042bc8095524f10ff200033cab74df37ae07f3de5eaa69/3fbd5defbc0fef0d152494033f3e817c330525b70e356a9e9acd2b72d9806b59/g' redpill-load/config/FS2500/7.0.1-42218/config.json
+          [-e redpill-load/config/FS6400/7.0.1-42218/config.json ] && sed -i 's/0e5e15398fb50d21ac52e0fbae199d5bacebc52f04933be5825c710f9de874ea/3437cc14ba919f13e37691d31d960f3f48cd3d734c015001ad2a7679636a5e9d/g' redpill-load/config/FS6400/7.0.1-42218/config.json
+          [-e redpill-load/config/RS3413xs+/7.0.1-42218/config.json ] && sed -i 's/9796536979407817ca96aef07aaabb3f03252a8e54df0f64ff7caf3c737f0da9/b5f5505a4ee0d623c562db43a0be6aba64a5bc57c6d6dcb796d80a60ea5fc7cd/g' redpill-load/config/RS3413xs+/7.0.1-42218/config.json
+          [-e redpill-load/config/RS3618xs/7.0.1-42218/config.json ] && sed -i 's/2b7623a6781fe10e0eface1665d41dfe2e5adb033b26e50e27c3449aee5fe4b0/941886bee9a0929c6bd078c5f2c465d9599721fc885a1e3835d6b60631f419af/g' redpill-load/config/RS3618xs/7.0.1-42218/config.json
+          [-e redpill-load/config/RS4021xs+/7.0.1-42218/config.json ] && sed -i 's/7afca3970ac7324d7431c1484d4249939bedd4c18ac34187f894c43119edf3a1/2a32266b7bcf0b2582b5afd9e39dc444e7cb40eaf4ccfdbfedf4743af821f11c/g' redpill-load/config/RS4021xs+/7.0.1-42218/config.json
 
           if [ ${repo} == 'pocopico' -a ${branch} == 'develop' ]; then 
             # 容错
